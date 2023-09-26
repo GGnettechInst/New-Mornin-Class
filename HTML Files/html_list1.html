@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML List</title>
+    <style>
+        #circle-item {
+            list-style-type: circle;
+        }
+        #box-item {
+            list-style-type: square;
+        }
+        #upper-roman-item {
+            list-style-type: upper-roman;
+        }
+
+        li::before {
+            content: "->";
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <ul id="circle-item">
+        <li>some data here</li>
+        <li>some data here</li>
+        <li>some data here</li>
+    </ul>
+
+    <ul id="box-item">
+        <li>some data here</li>
+        <li>some data here</li>
+        <li>some data here</li>
+    </ul>
+
+    <ul id="upper-roman-item">
+        <li>some data here</li>
+        <li>some data here</li>
+        <li>some data here</li>
+    </ul>
+    
+    <ul id="lower-alpha-item">
+        <li>some data here</li>
+        <li>some data here</li>
+        <li>some data here</li>
+    </ul>
+    
+    <ul id="no-item">
+        <li>some data here</li>
+        <li>some data here</li>
+        <li>some data here</li>
+    </ul>
+    
+    <ul id="no-item">
+        <li>some data here</li>
+        <li>some data here</li>
+        <li>some data here</li>
+    </ul>
+</body>
+</html>
+
